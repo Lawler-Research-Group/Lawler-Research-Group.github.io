@@ -1,17 +1,17 @@
 ---
 layout: page
-title:
+title: Our Group
 permalink: /people/
 description: 
 nav: true
 horizontal: false
 ---
 
-# Current Group Members
+## Current Graduate Students
 
 <div style="clear: both;">
   <div style="float: left; margin-right 1em;">
-   <h2>Gaurav Gyawali</h2>
+   <b>Gaurav Gyawali (Cornell University)</b>
   <img src="/assets/img/Gaurav_Gyawali.jpg" alt="Gaurav Gyawali" width="200"/>
   </div>
   <div>
@@ -21,32 +21,73 @@ horizontal: false
     among the electrons. I am currently working on variational quantum eigensolver(VQE) based algorithms for 
     near-term quantum computers. However, the long term vision is to reach fault-tolerant quantum era, which 
     requires quantum error correction. I am also deeply interested in quantum error correction codes from the 
-    perspectives of both quantum computing and condensed matter <a href="gg454@cornell.edu">Email</a> <a href="www.gauravgyawali.com">Website</a>
+    perspectives of both quantum computing and condensed matter <a href="mailto: gg454@cornell.edu">Email</a> <a href="https://www.gauravgyawali.com">Website</a>
+  </div>
+</div>
+
+<div style="clear: both;">
+  <div style="float: left; margin-right 1em;">
+   <b>Eric Aspling</b>
+  <img src="/assets/img/Eric_Aspling.jpg" alt="Eric_Aspling" width="200"/>
+  </div>
+  <div>
+   High energy and quantum compting
+  </div>
+</div>
+
+<div style="clear: both;">
+  <div style="float: left; margin-right 1em;">
+   <b>Po-Wei Lo</b>
+  <img src="/assets/img/PoWei_lo.jpg" alt="Eric_Aspling" width="200"/>
+  </div>
+  <div>
+   Topology in condensed matter  
+  </div>
+</div>
+
+<div style="clear: both;">
+  <div style="float: left; margin-right 1em;">
+   <b>Kyle Sherman</b>
+  <img src="/assets/img/Eric_Aspling.jpg" alt="Eric_Aspling" width="200"/>
+  </div>
+  <div>
+   Machine learning in condensed matter
+  </div>
+</div>
+
+<div style="clear: both;">
+  <div style="float: left; margin-right 1em;">
+   <b>Mabrur Ahmed</b>
+  <img src="/assets/img/Eric_Aspling.jpg" alt="Eric_Aspling" width="200"/>
+  </div>
+  <div>
+  Quantum machine learning
+  </div>
+</div>
+
+<div style="clear: both;">
+  <div style="float: left; margin-right 1em;">
+   <b>Chris Owen</b>
+  <img src="/assets/img/Eric_Aspling.jpg" alt="Eric_Aspling" width="200"/>
+  </div>
+  <div>
+  MOFs and machine learning
+  </div>
+</div>
+
+## Current Undergraduate Students
+<div style="clear: both;">
+  <div style="float: left; margin-right 1em;">
+   <b>Tiago Serrano</b>
+  <img src="/assets/img/Eric_Aspling.jpg" alt="Eric_Aspling" width="200"/>
+  </div>
+  <div>
+  Quantum machine learning
   </div>
 </div>
 
 
- ## Pictures of us
- 
-<img src="/assets/img/Lawler_Group_Graduate Students_Fall_2016.png" alt="Todd, Kyle and Pat in 2015" height = 190 width="388" />
-
-From left to right:
-- Todd Rutkowski (Binghamton Graduate)
-- Patrick O'Brien (Binghamton Graduate)
-- Kyle G. Sherman (Binghamton Graduate)
-
-<img src="/assets/img/KrishanuRoyChowdury.jpg" alt="Krishanu Roychowdhury in 2016" height=190 width=189 />
-
-Krishanu Roychowdhury in 2016 (postdoc)
-
-## Our Graduate Students
-- Eric Aspling (Binghamton Graduate
-- Mabrur Ahmed (Binghamton Graduate)
-- Gaurav Gyawali (Cornell Graduate)
-- Po-Wei Lo (Cornell Graduate)
-- Kyle G. Sherman (Binghamton Graduate)
-
-## Former Group Members
+## Lawler Group Alumni
 - Kaixiang Su (Peking University Visiting Undergraduate)
 - Krishanu Roychowdury (Cornell Postdoc)
 - Todd Rutkowski (Binghamton Graduate)

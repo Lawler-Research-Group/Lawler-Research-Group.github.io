@@ -1,11 +1,12 @@
 ---
 layout: page
-title: research
+title: Our Research Interests
 permalink: /research/
-description: Condensed matter & quantum computing
+description: 
 nav: true
 display_categories: [work, fun]
 horizontal: false
 ---
-# Our Research Interests
-(still under construction)
+
+-Condensed matter
+-Quantum computing
