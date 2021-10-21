@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: The Lawler group research site seeking breakthroughs in condensed matter physics.
+description: #The Lawler group research site seeking breakthroughs in condensed matter physics.
 
 profile:
   align: right
