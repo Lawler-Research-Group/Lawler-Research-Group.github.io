@@ -14,7 +14,7 @@ horizontal: false
   <div class="col-sm mt-3 mt-md-0">
   <img src="/assets/img/Gaurav_Gyawali.jpg" alt="Gaurav Gyawali" width="200"/>
   </div>
-  <div class="col-sm mt-3 mt-md-0">
+  <div class="col-sm mt-6 mt-md-0">
     My research interest lies at the interesection of quantum computing and condensed matter physics. 
     I am interested in developing novel quantum algorithms for both near-term and fault-tolerant quantum devices 
     to understand how complex and exotic behaviors in condensed matter systems emerge from simple interactions 
