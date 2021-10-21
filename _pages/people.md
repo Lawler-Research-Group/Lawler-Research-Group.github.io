@@ -9,18 +9,18 @@ horizontal: false
 ---
 
 ## Current Graduate Students
-**Gaurav Gyawali (Cornell)**
-<div style="clear: both;">
-  <div style="float: left; margin-right 5em;">
+- **Gaurav Gyawali (Cornell)**
+<div class="row mt-3">
+  <div class="col-sm mt-3 mt-md-0">
   <img src="/assets/img/Gaurav_Gyawali.jpg" alt="Gaurav Gyawali" width="200"/>
   </div>
-  <div>
+  <div class="col-sm mt-3 mt-md-0">
     My research interest lies at the interesection of quantum computing and condensed matter physics. 
     I am interested in developing novel quantum algorithms for both near-term and fault-tolerant quantum devices 
     to understand how complex and exotic behaviors in condensed matter systems emerge from simple interactions 
     among the electrons. I am currently working on variational quantum eigensolver(VQE) based algorithms for 
     near-term quantum computers. However, the long term vision is to reach fault-tolerant quantum era, which 
-    requires quantum error correction. I am also deeply interested in quantum error correction codes from the 
+    requires quantum error correction. I am also interested in quantum error correction codes from the 
     perspectives of both quantum computing and condensed matter <a href="mailto: gg454@cornell.edu">Email</a> <a href="https://www.gauravgyawali.com">Website</a>
   </div>
 </div>
