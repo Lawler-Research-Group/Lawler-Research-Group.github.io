@@ -1,9 +1,10 @@
 ---
 layout: page
-title: people
+title: People
 permalink: /people/
 description: 
 nav: true
+display_categories: [work, fun]
 horizontal: false
 ---
 
@@ -25,55 +26,8 @@ horizontal: false
   </div>
 </div>
 
-<div style="clear: both;">
-  <div style="float: left; margin-right 1em;">
-   <b>Eric Aspling</b>
-  <img src="/assets/img/Eric_Aspling.jpg" alt="Eric_Aspling" width="200"/>
-  </div>
-  <div>
-   High energy and quantum compting
-  </div>
-</div>
 
-<div style="clear: both;">
-  <div style="float: left; margin-right 1em;">
-   <b>Po-Wei Lo</b>
-  <img src="/assets/img/PoWei_lo.jpg" alt="Eric_Aspling" width="200"/>
-  </div>
-  <div>
-   Topology in condensed matter  
-  </div>
-</div>
 
-<div style="clear: both;">
-  <div style="float: left; margin-right 1em;">
-   <b>Kyle Sherman</b>
-  <img src="/assets/img/Eric_Aspling.jpg" alt="Eric_Aspling" width="200"/>
-  </div>
-  <div>
-   Machine learning in condensed matter
-  </div>
-</div>
-
-<div style="clear: both;">
-  <div style="float: left; margin-right 1em;">
-   <b>Mabrur Ahmed</b>
-  <img src="/assets/img/Eric_Aspling.jpg" alt="Eric_Aspling" width="200"/>
-  </div>
-  <div>
-  Quantum machine learning
-  </div>
-</div>
-
-<div style="clear: both;">
-  <div style="float: left; margin-right 1em;">
-   <b>Chris Owen</b>
-  <img src="/assets/img/Eric_Aspling.jpg" alt="Eric_Aspling" width="200"/>
-  </div>
-  <div>
-  MOFs and machine learning
-  </div>
-</div>
 
 ## Current Undergraduate Students
 <div style="clear: both;">
@@ -88,6 +42,7 @@ horizontal: false
 
 
 ## Lawler Group Alumni
+- Luke Ellert Beck (Cornell Undergraduate)
 - Kaixiang Su (Peking University Visiting Undergraduate)
 - Krishanu Roychowdury (Cornell Postdoc)
 - Todd Rutkowski (Binghamton Graduate)
