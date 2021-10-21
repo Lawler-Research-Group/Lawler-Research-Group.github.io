@@ -1,40 +1,57 @@
 ---
 layout: page
-title: people
-permalink: /people/
-description: Current and former group members
-nav: true
+title: projects
+permalink: /projects/
+description: A growing collection of your cool projects.
+nav: false
+display_categories: [work, fun]
 horizontal: false
 ---
-## Pictures of us
-<img src="/assets/img/Lawler_Group_Graduate Students_Fall_2016.png" alt="Todd, Kyle and Pat in 2015" height = 190 width="388" />
+<div class="projects">
+  {% if site.enable_project_categories and page.display_categories %}
+  <!-- Display categorized projects -->
+    {% for category in page.display_categories %}
+      <h2 class="category">{{ category }}</h2>
+      {% assign categorized_projects = site.projects | where: "category", category %}
+      {% assign sorted_projects = categorized_projects | sort: "importance" %}
+      <!-- Generate cards for each project -->
+      {% if page.horizontal %}
+        <div class="container">
+          <div class="row row-cols-2">
+          {% for project in sorted_projects %}
+            {% include projects_horizontal.html %}
+          {% endfor %}
+          </div>
+        </div>
+      {% else %}
+        <div class="grid">
+          {% for project in sorted_projects %}
+            {% include projects.html %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endfor %}
 
-From left to right:
-- Todd Rutkowski (Binghamton Graduate)
-- Patrick O'Brien (Binghamton Graduate)
-- Kyle G. Sherman (Binghamton Graduate)
+  {% else %}
+  <!-- Display projects without categories -->
+    {% assign sorted_projects = site.projects | sort: "importance" %}
+    <!-- Generate cards for each project -->
+    {% if page.horizontal %}
+      <div class="container">
+        <div class="row row-cols-2">
+        {% for project in sorted_projects %}
+          {% include projects_horizontal.html %}
+        {% endfor %}
+        </div>
+      </div>
+    {% else %}
+      <div class="grid">
+        {% for project in sorted_projects %}
+          {% include projects.html %}
+        {% endfor %}
+      </div>
+    {% endif %}
 
-<img src="/assets/img/KrishanuRoyChowdury.jpg" alt="Krishanu Roychowdhury in 2016" height=190 width=189 />
+  {% endif %}
 
-Krishanu Roychowdhury in 2016 (postdoc)
-
-## Our Graduate Students
-- Eric Aspling (Binghamton Graduate
-- Mabrur Ahmed (Binghamton Graduate)
-- Gaurav Gyawali (Cornell Graduate)
-- Po-Wei Lo (Cornell Graduate)
-- Kyle G. Sherman (Binghamton Graduate)
-
-## Former Group Members
-- Kaixiang Su (Peking University Visiting Undergraduate)
-- Krishanu Roychowdury (Cornell Postdoc)
-- Todd Rutkowski (Binghamton Graduate)
-- Patrick O'Brien (Binghamton Graduate)
-- Junping Shao (Binghamton Graduate)
-- Ian MacCormack (Cornell Undergraduate)
-- Benjamin Sung (Cornell Undergraduate)
-- Ashwathi Iyer (Cornell Undergraduate)
-- Nina Pikula (Binghamton Undergraduate)
-- Belinda Pang (Cornell Undergraduate)
-- Steven Collazos (Binghamton Undergraduate)
-- Junping Shao (Cornell Undergraduate, Binghamton Graduate)
+</div>
