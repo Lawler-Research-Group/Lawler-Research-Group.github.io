@@ -9,10 +9,9 @@ horizontal: false
 ---
 
 ## Current Graduate Students
-
+### Gaurav Gyawali (Cornell)
 <div style="clear: both;">
   <div style="float: left; margin-right 1em;">
-   <b>Gaurav Gyawali (Cornell University)</b>
   <img src="/assets/img/Gaurav_Gyawali.jpg" alt="Gaurav Gyawali" width="200"/>
   </div>
   <div>
@@ -30,16 +29,7 @@ horizontal: false
 
 
 ## Current Undergraduate Students
-<div style="clear: both;">
-  <div style="float: left; margin-right 1em;">
-   <b>Tiago Serrano</b>
-  <img src="/assets/img/Eric_Aspling.jpg" alt="Eric_Aspling" width="200"/>
-  </div>
-  <div>
-  Quantum machine learning
-  </div>
-</div>
-
+- Tiago Serrano 
 
 ## Lawler Group Alumni
 - Luke Ellert Beck (Cornell Undergraduate)
