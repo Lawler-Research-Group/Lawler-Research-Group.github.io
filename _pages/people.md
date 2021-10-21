@@ -1,6 +1,6 @@
 ---
 layout: page
-title: people
+title:
 permalink: /people/
 description: 
 nav: true
@@ -8,20 +8,33 @@ horizontal: false
 ---
 
 # Current Group Members
+<! ---
 <table>
     <tr>
     <th> **Gaurav Gyawali** <img src="/assets/img/Gaurav_Gyawali.jpg" alt="drawing" width="200"/> </th>
-    <th>My research interest lies at the interesection of quantum computing and condensed matter physics. 
+    <th> [Email](gg454@cornell.edu) [Website](www.gauravgyawali.com)|</th>
+    </tr>
+</table>
+--->
+
+<div style="clear: both;">
+  <div style="float: left; margin-right 1em;">
+   <h2>Gaurav Gyawali</h2>
+  <img src="/assets/img/Gaurav_Gyawali.jpg" alt="Gaurav Gyawali" width="200"/>
+  </div>
+  <div>
+    {{ My research interest lies at the interesection of quantum computing and condensed matter physics. 
     I am interested in developing novel quantum algorithms for both near-term and fault-tolerant quantum devices 
     to understand how complex and exotic behaviors in condensed matter systems emerge from simple interactions 
     among the electrons. I am currently working on variational quantum eigensolver(VQE) based algorithms for 
     near-term quantum computers. However, the long term vision is to reach fault-tolerant quantum era, which 
     requires quantum error correction. I am also deeply interested in quantum error correction codes from the 
-    perspectives of both quantum computing and condensed matter. [Email](gg454@cornell.edu) [Website](www.gauravgyawali.com)|</th>
-    </tr>
-</table>
+    perspectives of both quantum computing and condensed matter.| markdownify }}
+  </div>
+</div>
 
  ## Pictures of us
+ 
 <img src="/assets/img/Lawler_Group_Graduate Students_Fall_2016.png" alt="Todd, Kyle and Pat in 2015" height = 190 width="388" />
 
 From left to right:
