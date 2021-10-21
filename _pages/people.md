@@ -2,10 +2,15 @@
 layout: page
 title: people
 permalink: /people/
-description: Current and former group members
+description: 
 nav: true
 horizontal: false
 ---
+
+# Current Group Members
+|Gaurav Gyawali                             |                          |
+| ![Gaurav Gyawali](Gaurav_Gyawali.jpg)     | My research interests    |
+
 ## Pictures of us
 <img src="/assets/img/Lawler_Group_Graduate Students_Fall_2016.png" alt="Todd, Kyle and Pat in 2015" height = 190 width="388" />
 
