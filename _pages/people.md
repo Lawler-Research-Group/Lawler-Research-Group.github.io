@@ -1,6 +1,6 @@
 ---
 layout: page
-title: People
+title: people
 permalink: /people/
 description: 
 nav: true
@@ -9,9 +9,9 @@ horizontal: false
 ---
 
 ## Current Graduate Students
-### Gaurav Gyawali (Cornell)
+**Gaurav Gyawali (Cornell)**
 <div style="clear: both;">
-  <div style="float: left; margin-right 1em;">
+  <div style="float: left; margin-right 5em;">
   <img src="/assets/img/Gaurav_Gyawali.jpg" alt="Gaurav Gyawali" width="200"/>
   </div>
   <div>
