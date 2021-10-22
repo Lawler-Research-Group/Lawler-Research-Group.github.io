@@ -9,12 +9,12 @@ horizontal: false
 ---
 
 ## Current Graduate Students
-- **Gaurav Gyawali (Cornell)**
 <div class="row mt-3">
-  <div class="col-3 mt-3 mt-md-0">
-  <img src="/assets/img/Gaurav_Gyawali.jpg" alt="Gaurav Gyawali" width="200"/>
+  <div class="col-sm">
+  - **Gaurav Gyawali (Cornell)** <br>
+  <img src="/assets/img/Gaurav_Gyawali.jpg" alt="Gaurav Gyawali" width="150"/>
   </div>
-  <div class="col-9 mt-3 mt-md-0">
+  <div class="col-x">
     My research interest lies at the interesection of quantum computing and condensed matter physics. 
     I am interested in developing novel quantum algorithms for both near-term and fault-tolerant quantum devices 
     to understand how complex and exotic behaviors in condensed matter systems emerge from simple interactions 
