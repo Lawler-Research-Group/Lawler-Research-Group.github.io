@@ -8,5 +8,5 @@ display_categories: [work, fun]
 horizontal: false
 ---
 
--Condensed matter
--Quantum computing
+- Condensed matter
+- Quantum computing
