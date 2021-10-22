@@ -9,9 +9,9 @@ horizontal: false
 ---
 
 ## Current Graduate Students
-<div class="row mt-3">
+<div class="row">
   <div class="col-sm">
-  - **Gaurav Gyawali (Cornell)** <br>
+  <b>Gaurav Gyawali (Cornell)<b>
   <img src="/assets/img/Gaurav_Gyawali.jpg" alt="Gaurav Gyawali" width="150"/>
   </div>
   <div class="col-x">
