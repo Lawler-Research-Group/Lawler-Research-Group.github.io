@@ -11,7 +11,7 @@ horizontal: false
 ## Current Graduate Students
 - **Gaurav Gyawali**
 <div class="row">
-  <div class="col-sm-auto">
+  <div class="col-sm-auto mt-3">
   <img src="/assets/img/Gaurav_Gyawali.jpg" alt="Gaurav Gyawali" width="150"/>
   </div>
   <div class="col">
@@ -24,6 +24,13 @@ horizontal: false
     perspectives of both quantum computing and condensed matter <a href="mailto: gg454@cornell.edu">Email</a> <a href="https://www.gauravgyawali.com">Website</a>
   </div>
 </div>
+- **Po-Wei Lo**
+- **Eric Aspling**
+- **Kyle Sherman**
+- **Mabrur Ahmed**
+- **Eric Aspling**
+- **Chris Owen**
+
 
 
 
