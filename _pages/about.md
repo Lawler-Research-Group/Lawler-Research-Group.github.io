@@ -6,7 +6,7 @@ description: #The Lawler group research site seeking breakthroughs in condensed 
 
 profile:
   align: right
-  image: Michael_Lawler_in_Erice.jpg
+  image: Michael_J_Lawler_in_Aspen.jpg
   address: >
     <p>2012 Smart Energy Building</p>
     <p>Binghamton University, Vestal, NY 13850</p>
