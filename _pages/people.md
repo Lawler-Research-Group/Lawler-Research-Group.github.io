@@ -27,7 +27,7 @@ horizontal: false
 - **Po-Wei Lo**
 <div class="row">
   <div class="col-sm-auto mt-3">
-  <img src="/assets/img/PoWei_Lo.jpg" alt="Po-Wei Lo" width="150"/>
+  <img src="/assets/img/PoWei_Lo.jpeg" alt="Po-Wei Lo" width="150"/>
   </div>
   <div class="col">
     I am interested in strongly correlated systems in condensed matter physics, in particular, frustrated magnets.
