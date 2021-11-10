@@ -41,7 +41,7 @@ horizontal: false
 - **Eric Aspling**
 <div class="row">
   <div class="col-sm-auto mt-3">
-  <img src="/assets/img/Eric_Aspling.jpg" alt="Eric Aspling" width="150"/>
+  <img src="/assets/img/Eric_Aspling.png" alt="Eric Aspling" width="150"/>
   </div>
   <div class="col">
     My name is Eric Aspling. I am a fourth-year PhD. student studying relativistic quantum information. 
