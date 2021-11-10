@@ -38,7 +38,21 @@ horizontal: false
     <a href="mailto:pl533@cornell.edu">Email</a>
   </div>
 </div>
-- Eric Aspling
+- **Eric Aspling**
+<div class="row">
+  <div class="col-sm-auto mt-3">
+  <img src="/assets/img/Eric_Aspling.jpg" alt="Eric Aspling" width="150"/>
+  </div>
+  <div class="col">
+    My name is Eric Aspling. I am a fourth-year PhD. student studying relativistic quantum information. 
+    A few of the other areas that I have studied include phononic vibrations in crystalline and amorphic structures, 
+    dark matter, and generalized particle statistics (parastatistics). My main interest is understanding 
+    time in the realm of quantum mechanics and quantum field theory. This problem has been haunting physicists 
+    for many decades and is reaching an exciting time in the era of quantum computing. In my free time,
+     I communicate physics to the public in various mediums including live events with the World Science Festival and online streaming on Twitch and Youtube.
+     You can find my various links.<a href="https://linktr.ee/Physicsoh">here.</a> <a href="mailto:easplin1@binghamton.edu">Email</a>
+  </div>
+</div>
 - Kyle Sherman
 - Mabrur Ahmed
 - Eric Aspling
