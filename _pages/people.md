@@ -55,7 +55,6 @@ horizontal: false
 </div>
 - Kyle Sherman
 - Mabrur Ahmed
-- Eric Aspling
 - Chris Owen
 
 
@@ -63,7 +62,9 @@ horizontal: false
 
 
 ## Current Undergraduate Students
-- Tiago Sereno
+- Tiago Sereno (Binghamton)
+- Philip Martin (Cornell)
+- Sonny Rappaport (Cornell)
 
 
 
