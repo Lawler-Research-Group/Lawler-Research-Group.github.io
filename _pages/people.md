@@ -4,7 +4,7 @@ title: people
 permalink: /people/
 description: 
 nav: true
-display_categories: [work, fun]
+display_categories: 
 horizontal: false
 ---
 - **Michael J. Lawler**
@@ -13,10 +13,11 @@ horizontal: false
   <img src="/assets/img/Michael_J_Lawler_in_Aspen.jpg" alt="Michael Lawler" width="150"/>
   </div>
   <div class="col">
-  2012 Smart Energy Building, Binghamton University, Vestal, NY 13850
-  523 Clark Hall, Cornell University, Ithaca, NY 14850
+    2012 Smart Energy Building, Binghamton University, Vestel, NY
+    523 Clark Hall, Cornell University, Ithaca, NY
   </div>
 </div>
+
 ## Current Graduate Students
 - **Gaurav Gyawali**
 <div class="row">
@@ -59,7 +60,7 @@ horizontal: false
     time in the realm of quantum mechanics and quantum field theory. This problem has been haunting physicists 
     for many decades and is reaching an exciting time in the era of quantum computing. In my free time,
      I communicate physics to the public in various mediums including live events with the World Science Festival and online streaming on Twitch and Youtube.
-     You can find my various links.<a href="https://linktr.ee/Physicsoh">here.</a> <a href="mailto:easplin1@binghamton.edu">Email</a>
+     You can find my various links <a href="https://linktr.ee/Physicsoh">here.</a> <a href="mailto:easplin1@binghamton.edu">Email</a>
   </div>
 </div>
 - Kyle Sherman
