@@ -7,6 +7,14 @@ nav: true
 display_categories: [work, fun]
 horizontal: false
 ---
+- **Michael J. Lawler**
+<div class="row">
+  <div class="col-sm-auto mt-4">
+  <img src="/assets/img/Michael_J_Lawler_in_Aspen.jpg" alt="Michael Lawler" width="150"/>
+  </div>
+  <div class="col">
+  <p>2012 Smart Energy Building, Binghamton University, Vestal, NY 13850</p>
+  <p>523 Clark Hall, Cornell University, Ithaca, NY 14850</p>
 
 ## Current Graduate Students
 - **Gaurav Gyawali**

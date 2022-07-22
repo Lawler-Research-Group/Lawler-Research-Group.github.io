@@ -9,13 +9,13 @@ subtitle: #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: Michael_J_Lawler_in_Aspen.jpg
-  image_cicular: false # crops the image to make it circular
-  address: >
-    <p>2012 Smart Energy Building</p>
-    <p>Binghamton University, Vestal, NY 13850</p>
-    <p>523 Clark Hall</p>
-    <p>Cornell University, Ithaca, NY 14850</p>
+  #image: Michael_J_Lawler_in_Aspen.jpg
+  #image_cicular: false # crops the image to make it circular
+  #address: >
+  #  <p>2012 Smart Energy Building</p>
+  #  <p>Binghamton University, Vestal, NY 13850</p>
+  #  <p>523 Clark Hall</p>
+  #  <p>Cornell University, Ithaca, NY 14850</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"

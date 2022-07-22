@@ -3,6 +3,8 @@ layout: post
 title:  "The art of quantum"
 date:   2020-05-29 16:15:21 -0400
 categories: future world
+description:
+tags: quantum, thought
 ---
 ### Thought of the day:
 

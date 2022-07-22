@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Do Quantum Circuits Outperform Neural Networks?"
+date:   2021-10-13 16:40:16
+description:
+tags: quantum, neuralnetworks
 ---
 
 Quantum machine learning [has received a lot of hype](https://www.protocol.com/manuals/quantum-computing/machine-learning-ai-quantum-computing-move-beyond-hype). But there is a simple way to see if the hype is just hype: classical simulation! In an apples-to-apples comparison, can a quantum circuit outperform a classical neural network? 
