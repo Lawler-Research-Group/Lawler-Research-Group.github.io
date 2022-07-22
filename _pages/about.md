@@ -4,9 +4,13 @@ title: about
 permalink: /
 description: #The Lawler group research site seeking breakthroughs in condensed matter physics.
 
+
+subtitle: #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+
 profile:
   align: right
   image: Michael_J_Lawler_in_Aspen.jpg
+  image_cicular: false # crops the image to make it circular
   address: >
     <p>2012 Smart Energy Building</p>
     <p>Binghamton University, Vestal, NY 13850</p>
