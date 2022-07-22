@@ -1,31 +1,41 @@
-          
-          <div class="news">
-            <h2>news</h2>
-            {% if site.news != blank -%} 
-            {%- assign news_size = site.news | size -%}
-            <div class="table-responsive" {% if site.news_scrollable and news_size > 3 %}style="max-height: 10vw"{% endif %}>
-              <table class="table table-sm table-borderless">
-              {%- assign news = site.news | reverse -%}
-              {% if site.news_limit %}
-              {% assign news_limit = site.news_limit %}
-              {% else %}
-              {% assign news_limit = news_size %}
-              {% endif %}
-              {% for item in news limit: news_limit %} 
-                <tr>
-                  <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
-                  <td>
-                    {% if item.inline -%} 
-                      {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                    {%- else -%} 
-                      <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                    {%- endif %} 
-                  </td>
-                </tr>
-              {%- endfor %} 
-              </table>
-            </div>
-          {%- else -%} 
-            <p>No news so far...</p>
-          {%- endif %} 
-          </div>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1671.6">
+  <style type="text/css">
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p4 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+    span.s2 {font: 12.0px Times; text-decoration: underline ; font-kerning: none; color: #0000e9; -webkit-text-stroke: 0px #0000e9}
+    td.td1 {width: 194.5px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td2 {width: 273.8px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+  </style>
+</head>
+<body>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; line-height: 22.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>news</b></span></h2>
+<p class="p2"><span class="s1">{% if site.news != blank -%} {%- assign news_size = site.news | size -%}</span></p>
+<p class="p2"><span class="s1">3 %}style="max-height: 20vw"{% endif %}&gt; {%- assign news = site.news | reverse -%} {% if site.news_limit %} {% assign news_limit = site.news_limit %} {% else %} {% assign news_limit = news_size %} {% endif %} {% for item in news limit: news_limit %} {%- endfor %}</span></p>
+<table cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p3"><span class="s1"><b>{{ item.date | date: "%b %-d, %Y" }}</b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2"><span class="s1">{% if item.inline -%} {{ item.content | remove: '</span></p>
+        <p class="p4"><span class="s1">' | remove: '</span></p>
+        <p class="p2"><span class="s1">' | emojify }} {%- else -%} <a href="file:///Users/Gaurav/Documents/Personal/Website2/lawler-research-group-website/_includes/%7B%7B%20item.url%20%7C%20relative_url%20%7D%7D"><span class="s2">{{ item.title }}</span></a> {%- endif %}<span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p2"><span class="s1">{%- else -%}</span></p>
+<p class="p4"><span class="s1">No news so far...</span></p>
+<p class="p2"><span class="s1">{%- endif %}<span class="Apple-converted-space"> </span></span></p>
+</body>
+</html>
