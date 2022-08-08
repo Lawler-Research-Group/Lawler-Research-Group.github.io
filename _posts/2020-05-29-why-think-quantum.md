@@ -2,8 +2,7 @@
 layout: post
 title:  "The art of quantum"
 date:   2020-05-29 16:15:21 -0400
-categories: future world
-description:
+description: by Michael Lawler
 tags: quantum, thought
 ---
 ### Thought of the day:
