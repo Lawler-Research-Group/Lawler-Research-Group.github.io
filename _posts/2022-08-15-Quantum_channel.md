@@ -39,14 +39,14 @@ H(X) = x\log x + (1-x)\log(1-x).
 For readers who enjoy the mathematics (others can skip this paragraph), Shannon entropy specifically measures information content of the random variable $$X$$. If we refer to this "surprise" or "randomness" of an outcome $$x$$ as the information content $$i(x)$$, and define it as $$i(x) = \log(\frac{1}{p(x)}) = -\log(p(x))$$. This measurement has the property that it is high for low probability outcomes and low for high probability outcomes. Moreover, this  also has another desirable property of "additivity" i.e. the information content of two outcomes $$x$$ and $$y$$ get added since the joint probability $$p(x,y) = p(x).p(y) \implies i(x,y) = -\log(p(x)p(y)) = -\log(p(x)) - \log(p(y)) = i(x) + i(y)$$. Thus, the total information content of the random variable $$X$$ can be written as the weighted average of the information of possible outcomes. 
 
 
-![coin_toss_entropy](assets/img/info_channel/coin_toss_entropy.pdf){:.centered}
+![coin_toss_entropy](assets/img/info_channel/coin_toss_entropy.png){:.centered}
 *Fig 1: Graphical representation of H(x) for our fair-coin flipping system. Notice the maximum entropy occurs when our probability $$x = 1/2*
 {:.figcaption}
 
  For both the classical and the quantum case of information channels, we will model a very simple operation that has purpose both in classical and quantum computing. For the classical system we will use a *flip* operation. The flip operation will take our input bit and flip the value of it. For instance, our fair coin modeled with heads as zero and tails as one, will do just as it says. Flip the side of the coin from its initial configuration to the opposite. Figure 2 gives a pictorial representation of this process.
  
 
-![bit_flip](assets/img/info_channel/bit_flip.pdf){:.centered}
+![bit_flip](assets/img/info_channel/bit_flip.png){:.centered}
 *Fig 2: A simple classical information channel that shows a flip operation acting on a coin. The coin is initially in state of heads but the flip operation changes this to tails.*
 {:.figcaption}
 
@@ -54,7 +54,7 @@ For readers who enjoy the mathematics (others can skip this paragraph), Shannon 
 A useful calculation in information theory is *Channel Capacity*, which is a measure of information loss (or conversely propagated) through our circuit. Information lost is often do to the noisiness of a channel. Noise is attributed to unwanted interactions and will affect the input states by altering them. For instance, a sender Alice and a receiver Bob may be attempting to communicate classically. Choosing a noisy channel to save resources could alter the inputs enough that Bob would be unable to decipher the original message Alice has sent. If instead of a fair coin, suppose Alice has access to a set of random variables $$X$$. She encodes a message onto the elements of $$X$$ and sends it via some noisy channel to Bob who receives a set of random variables $$Y$$ to decipher. Our aim now must be to mathematically evaluate the channel that led from $$X$$ to $$Y$$. This will show if the channel reliably transferred Alice's message. Pictorially this is shown in figure 3.
 
 
-![classical_message](assets/img/info_channel/classical_circuit.pdf){:.centered}
+![classical_message](assets/img/info_channel/classical_circuit.png){:.centered}
 *Fig 3: Alice's message is encoded into the elements $$x_i$$ where it is passed through some noisy channel $$\mathcal{N}$$ and later deciphered by Bob.*
 {:.figcaption}
 
@@ -83,7 +83,7 @@ which has a physical interpretation such that, if Alice can arrange her informat
 
 
 
-### Large{Quantum Information Channels
+### Quantum Information Channels
 
 
 A quantum channel is a linear, completely positive, and trace preserving mapping corresponding to a physical evolution. This is a fancy way of saying that it too, is a probabilistic mapping from initial states to final states. Yet something deeper is going on here. The probabilities involved the information transfer is not necessarily due to our inability to evaluate a complex system. Instead, the mechanics are fundamentally probabilistic. This leads to a relationship deeper than correlation, *Entanglement*. 
@@ -105,7 +105,7 @@ where the coefficient of $$\frac{1}{\sqrt{2}}$$ guarantees that $$50\%$$ of the 
 Now that our descriptive states are set up as qubits, we can begin to evaluate the information in our states. Lets, first establish a parallel to our Shannon Entropy. It may surprise you that quantum mechanical entropy came first, this was accomplished by John von Neumann in 1932. Nevertheless, our *von Neumann entropy* has a similar form to the Shannon Entropy, 
 
 \begin{equation} \label{von Neumann entropy}
-    S(\rho) = -\Tr{(\rho\log \rho)}
+    S(\rho) = -Tr(\rho\log \rho)
 \end{equation}
 
 where $$\rho$$ is a density matrix whose purpose is to describe, in entirety, the probabilities and states of our system. If these states are eigenstates (eigenstates are states we can measure eg. spin-up and spin-down) then our density matrix takes the appearance of $$\rho = \sum_j n_j \ket{j}\bra{j}$$ with $$\ket{j}$$ denoting an eigenstate, and we can simplify equation \eqref{von Neumann entropy} to,
@@ -122,13 +122,13 @@ To understand Quantum Mutual Information, lets give Alice one qubit and Bob anot
     I(A:B) = S(\rho_A) + S(\rho_B) - S(\rho_{AB}) 
 \end{equation}
 
-where $$\rho_A = \Tr_B (\rho)$$ and $$\rho_{AB}$$ is the density matrix describing the state of the Alice's qubit. Tracing over part of the system, in essence ignores that part of the system. When we trace over Bob's information we are focused solely on the information of Alice. The physical interpretation of mutual information is thus a quantifiable measurement of the entanglement shared between Alice and Bob. For a highly entangled state such as our bell state, we find a value of two which indicates a maximum entanglement between the two qubits. While quantum mutual information is insightful for understanding entanglement between states, these states remain as initial states. We have made a modification to our system between the classical and quantum cases. The modification is the usage of Bob. In our classical noisy channel arrangement, Bob received some data $$Y$$ from Alice whose input was $$X$$. The classical mutual information was a correlation between input and output. Therefore, We need another tool that is analogous to classical mutual information, that will evaluate how a quantum channel could alter this entanglement. Luckily, we'll find a familiar analogy to classical mutual information.
+where $$\rho_A = Tr_B (\rho)$$ and $$\rho_{AB}$$ is the density matrix describing the state of the Alice's qubit. Tracing over part of the system, in essence ignores that part of the system. When we trace over Bob's information we are focused solely on the information of Alice. The physical interpretation of mutual information is thus a quantifiable measurement of the entanglement shared between Alice and Bob. For a highly entangled state such as our bell state, we find a value of two which indicates a maximum entanglement between the two qubits. While quantum mutual information is insightful for understanding entanglement between states, these states remain as initial states. We have made a modification to our system between the classical and quantum cases. The modification is the usage of Bob. In our classical noisy channel arrangement, Bob received some data $$Y$$ from Alice whose input was $$X$$. The classical mutual information was a correlation between input and output. Therefore, We need another tool that is analogous to classical mutual information, that will evaluate how a quantum channel could alter this entanglement. Luckily, we'll find a familiar analogy to classical mutual information.
 
 The flow of quantum information is quantifiable by how much entanglement passes from the initial state to the final state. *Quantum Coherent information* is a quantitative measurement of this transfer. To understand it better, lets bring in a third qubit belonging to Carla. Let's suppose Alice and Carla entangle their qubits together and create a Bell Pair like that of eq. \eqref{entangled state}. Bob's qubit is initially in a $$\ket{0}$$ (spin-up) state with $$100\%$$ probability. We now define a quantum channel from Alice to Bob where we aim to pass the entanglement. A popular quantum channel that is well known to preserve entanglement is done using a SWAP gate. The SWAP gate will do just as it says; swap the values of Alice's and Bob's qubits and with it the information associated. Figure 4 shows this quantum information channel, outlining the SWAP of entanglement from Alice's qubit to Bob's. 
 
 
 
-![quantum_circuit](assets/img/info_channel/quantum_circuit.pdf){:.centered}
+![quantum_circuit](assets/img/info_channel/quantum_circuit.png){:.centered}
 *Fig 2: Alice and Carla initially have an entangled bell pair. After the SWAP gate is carried out Carla and Bob are now entangled and Alice is in the $$\ket{0}$$ state.*
 {:.figcaption}
 
