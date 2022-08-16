@@ -22,10 +22,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 carousels:
   - images: 
-    - image: /assets/_slides/group_treman.jpg
-    - image: /assets/_slides/adaptive_circuit.png
-    - image: /assets/_slides/hyperkagome.jpg
-    - image: /assets/_slides/Pseudogap-Electronic-Nematicity.bmp
+    - image: /_slides/group_treman.jpg
+    - image: /_slides/adaptive_circuit.png
+    - image: /_slides/hyperkagome.jpg
+    - image: /_slides/Pseudogap-Electronic-Nematicity.bmp
 ---
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
 
