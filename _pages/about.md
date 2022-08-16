@@ -24,10 +24,10 @@ carousels:
   - images: 
     - image: /assets/img/group_treman.jpg
     - image: /assets/img/adaptive_circuit.png
-    - image: /assets/img/hyperkagome.jpg
+    - image: /assets/img/hyperkagome.png
     - image: /assets/img/Pseudogap-Electronic-Nematicity.bmp
 ---
-{% include carousel.html height="50" unit="%" duration="7" number="1" %}
+{% include carousel.html height="60" unit="%" duration="7" number="1" %}
 
 
 We are a group of people interested in the physics of strongly correlated systems: system that are composed of many "degrees of freedom" that interactly strongly leading to emergent phenomena. We have historically had expertise in highly frustrated magnetism and strongly correlated electrons such as non-Fermi liquids and high temperature superconductivity. But recently have branched out to study quantum computing and machine learning in the hopes that these new fashionable methods will help us better understand the emergent phenomena we study.
