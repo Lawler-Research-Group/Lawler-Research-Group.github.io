@@ -20,6 +20,12 @@ profile:
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+carousels:
+  - images: 
+    - image: /assets/img/selfie_treman.JPG
+    - image: /assets/img/nematicorder.jpg
 ---
+{% include carousel.html height="50" unit="%" duration="7" number="1" %}
+
 
 We are a group of people interested in the physics of strongly correlated systems: system that are composed of many "degrees of freedom" that interactly strongly leading to emergent phenomena. We have historically had expertise in highly frustrated magnetism and strongly correlated electrons such as non-Fermi liquids and high temperature superconductivity. But recently have branched out to study quantum computing and machine learning in the hopes that these new fashionable methods will help us better understand the emergent phenomena we study.
