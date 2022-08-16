@@ -40,7 +40,7 @@ For readers who enjoy the mathematics (others can skip this paragraph), Shannon 
 
 
 {% include figure.html path="assets/img/info_channel/coin_toss_entropy.png" class="img-fluid rounded z-depth-1" width="300" align="center"%}
-*Fig 1: Graphical representation of H(x) for our fair-coin flipping system. Notice the maximum entropy occurs when our probability $$x = 1/2$$.*
+*Fig 1: Graphical representation of H(x) for our fair-coin flipping system. Notice the maximum entropy occurs when our probability $$x = 1/2$$*
 {:.figcaption}
 
  For both the classical and the quantum case of information channels, we will model a very simple operation that has purpose both in classical and quantum computing. For the classical system we will use a *flip* operation. The flip operation will take our input bit and flip the value of it. For instance, our fair coin modeled with heads as zero and tails as one, will do just as it says. Flip the side of the coin from its initial configuration to the opposite. Figure 2 gives a pictorial representation of this process.

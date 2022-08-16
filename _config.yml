@@ -287,20 +287,6 @@ enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 
-#---------------------------------------------------------------
-#Slide show added by GG
-#--------------------------------------------------------------
-defaults:
-  -
-    scope:
-      path: "_slides" 
-    values:
-      layout: "iframe"
-
-collections:
-  slides:
-    output: true
-
 
 # -----------------------------------------------------------------------------
 # Library versions
