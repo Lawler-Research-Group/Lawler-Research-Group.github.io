@@ -3,6 +3,7 @@ layout: post
 title: "Do Quantum Circuits Outperform Neural Networks?"
 date:   2021-10-13 16:40:16
 description: by Michael Lawler
+comments: true
 tags: quantum, neuralnets
 ---
 
