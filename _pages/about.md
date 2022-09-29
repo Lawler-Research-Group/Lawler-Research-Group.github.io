@@ -23,9 +23,10 @@ social: true  # includes social icons at the bottom of the page
 carousels:
   - images: 
     - image: /assets/img/group_treman.jpg
+    - image: /assets/img/Pseudogap-Electronic-Nematicity.bmp
     - image: /assets/img/adaptive_circuit.png
     - image: /assets/img/hyperkagome.png
-    - image: /assets/img/Pseudogap-Electronic-Nematicity.bmp
+
 ---
 {% include carousel.html height="60" unit="%" duration="3" number="1" %}
 
