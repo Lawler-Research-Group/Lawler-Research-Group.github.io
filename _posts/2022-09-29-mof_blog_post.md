@@ -18,7 +18,7 @@ Our team at Binghamton University (Shehtab Zaman, Kenneth Chiu, Michael J. Lawle
 We did also attempt using a 3D-CNN, but because a substantial quantity of MOFs had atom counts in the thousands, a 3D-CNN would be largely inefficient. We also hoped to utilize the pre-trained latent space of the InceptionV3 architecture which excels at recognizing tiny differences in edges and features of the images.
 
 
-<!-- |<img src="https://i.imgur.com/Dq3smEu.png" width="350" height="200"/>|
+<!-- |<img src="https://i.imgur.com/Dq3smEu.png" width="400" height="230"/>|
 |:--:|
 |<b>Fig. 1 InceptionV3 Architecture. For transfer learning only the final part of the model is trained on the new data.</b>|
  -->
