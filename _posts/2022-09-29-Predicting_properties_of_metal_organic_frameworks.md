@@ -5,7 +5,7 @@ date:   2022-9-28 12:20:11
 description: by Jacob Barkovitch
 comments: true
 tags: materials-science, neuralnets, dimensionality-reduction, transfer-learning
-permalink: /blog/2022/
+permalink: /blog/2022/Predicting_properties_of_metal_organic_framework
 ---
 
 With the increase in global transportation and shipping, the need for efficient and safe gas transportation is more important than ever. One method of accomplishing this is through [metal-organic frameworks](https://en.wikipedia.org/wiki/Metal-organic_framework) (MOFs). MOFs are a class of crystalline materials with extremely high porosity, inner surface area, and flexibility in network topologies. MOFs are composed of positively charged metal ions connected by organic linkers. This unique composition gives MOFs an incredibly large inner surface area ideal for storing or separating gases.
