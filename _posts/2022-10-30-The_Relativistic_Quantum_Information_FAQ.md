@@ -1,4 +1,3 @@
-﻿
 ---
 layout: post
 title: The Relativistic Quantum Information FAQ 
@@ -6,7 +5,6 @@ date: 2022-10-30 16:40:16
 description: by Eric Aspling
 comments: true
 tags: quantum, informationtheory
-publish: false
 ---
 
 A recent visit to Johns Hopkins University and the University of Maryland has me realizing that Relativistic Quantum Information (RQI) is too young in its infancy for many to know what it's all about. I received many questions during conversations with friends and colleagues about RQI. This FAQ is a collection of those questions and others that may prove helpful. Please feel free to add any questions to the comment section below, and I will do my best to answer them. 
