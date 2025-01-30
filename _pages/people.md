@@ -31,7 +31,7 @@ horizontal: false
     among the electrons. I am currently working on variational quantum eigensolver(VQE) based algorithms for 
     near-term quantum computers. However, the long term vision is to reach fault-tolerant quantum era, which 
     requires quantum error correction. I am also interested in quantum error correction codes from the 
-    perspectives of both quantum computing and condensed matter <a href="mailto: gg454@cornell.edu">Email</a> <a href="https://www.gauravgyawali.com">Website</a>
+    perspectives of both quantum computing and condensed matter <a href="mailto: gg454@cornell.edu">Email</a>
   </div>
 </div>
 - **Po-Wei Lo**

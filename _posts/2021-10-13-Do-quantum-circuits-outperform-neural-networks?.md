@@ -7,7 +7,7 @@ comments: true
 tags: quantum, neuralnets
 ---
 
-Quantum machine learning [has received a lot of hype](https://www.protocol.com/manuals/quantum-computing/machine-learning-ai-quantum-computing-move-beyond-hype). But there is a simple way to see if the hype is just hype: classical simulation! In an apples-to-apples comparison, can a quantum circuit outperform a classical neural network? 
+Quantum machine learning has received a lot of hype. But there is a simple way to see if the hype is just hype: classical simulation! In an apples-to-apples comparison, can a quantum circuit outperform a classical neural network? 
 
 Recently, I was reading this very nice article by Taylor Patti (Harvard, Nvidia) and collaborators ([see arXiv](https://arxiv.org/pdf/2106.13304.pdf)) and they found a nice application of an idea I had: use pytorch to simulate quantum circuits. They managed to simulate a quantum circuit with 512 qubits that is 13 gates deep and were motivated to do so for an application with time reversal symmetry that allows them to use real numbers instead of complex ones which pytorch is not well setup to handle. The results from their GPU seem impressive and strengthens the motivation for this post: is a quantum circuit good at machine learning and for what applications is it good at? Combinatorial optimization?
 

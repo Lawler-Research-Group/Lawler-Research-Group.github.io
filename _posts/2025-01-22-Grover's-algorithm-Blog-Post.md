@@ -172,6 +172,8 @@ This is all to say Grover's algorithm operates in a similar way, where the "land
 
 The connection between Grover's search and Hamiltonian dynamics is a bridge between quantum search and physical evolution. Understanding this relationship provides insights into quantum speedups in areas such as molecular dynamics, quantum machine learning, and even quantum error correction. As we continue to explore this deep connection, we may discover entirely new quantum algorithms that harness the natural evolution of quantum systems to solve computational problems more efficiently than before. Indeed, my next research direction leverages this Hamiltonian-Grover connection to develop a novel approach for solving the Traveling Salesman Problem, potentially offering a new quantum speedup for this fundamental optimization challenge.
 
-[1] Bartschi, A., & Eidenbenz, S. (2020). Grover Mixers for QAOA: Shifting Complexity from Mixer Design to State Preparation. ArXiv (Cornell University). https://doi.org/10.1109/qce49297.2020.00020
+[1] Bartschi, A., & Eidenbenz, S. (2020). Grover Mixers for QAOA: Shifting Complexity from Mixer Design to State Preparation. ArXiv (Cornell University). 
+# https://doi.org/10.1109/qce49297.2020.00020
 
-[2]Fenner, S. A. (2000). An intuitive Hamiltonian for quantum search. ArXiv (Cornell University). https://doi.org/10.48550/arxiv.quant-ph/0004091
+[2]Fenner, S. A. (2000). An intuitive Hamiltonian for quantum search. ArXiv (Cornell University). 
+# https://doi.org/10.48550/arxiv.quant-ph/0004091
