@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Generating 2D Fingerprints to Predict Properties of Metal Organic Frameworks Using Machine Learning"
-date:   2022-9-28 12:20:11
+date: 2022-9-28 12:20:11
 description: by Jacob Barkovitch
 comments: true
 tags: materials-science, neuralnets, dimensionality-reduction, transfer-learning
@@ -21,12 +21,11 @@ Our team at Binghamton University (Shehtab Zaman, Kenneth Chiu, Michael J. Lawle
 
 We did also attempt using a 3D-CNN, but because a substantial quantity of MOFs had atom counts in the thousands, a 3D-CNN would be largely inefficient. We also hoped to utilize the pre-trained latent space of the InceptionV3 architecture which excels at recognizing tiny differences in edges and features of the images.
 
-
 <!-- |<img src="https://i.imgur.com/Dq3smEu.png" width="350" height="200"/>|
 |:--:|
 |<b>Fig. 1 InceptionV3 Architecture. For transfer learning only the final part of the model is trained on the new data.</b>|
  -->
- 
+
 <p align="center">
 <img src="https://miro.medium.com/max/960/1*gqKM5V-uo2sMFFPDS84yJw.png" width="500"/>
 </p>
@@ -36,16 +35,16 @@ We did also attempt using a 3D-CNN, but because a substantial quantity of MOFs h
 
 To solve this issue we applied multidimensional scaling (MDS) to the 3D coordinates. This resulted in a 2D matrix of the atom positions which hopefully preserves the geometric properties of the original 3D MOF. While some information is definitely lost from the 3D to 2D reduction, our hope is that it is small enough to not affect our predictions. The formula for classical MDS is as follows:
 
-\begin{equation} 
+\begin{equation}
 \label{mds}
-    Stress_D(x_1,x_2,...,x_N) = \left(\sum_{x \neq j=1,...,N}(d_{ij}-||x_i-x_j||)^2\right)^{1/2}
+Stress*D(x_1,x_2,...,x_N) = \left(\sum*{x \neq j=1,...,N}(d\_{ij}-||x_i-x_j||)^2\right)^{1/2}
 \end{equation}
 
 Where:
 
-\begin{equation} 
+\begin{equation}
 \label{d}
-    d_{ij} = \sqrt{\sum^p_{k=1}\left(x_{ij}-x_{jk}\right)^2}
+d*{ij} = \sqrt{\sum^p*{k=1}\left(x*{ij}-x*{jk}\right)^2}
 \end{equation}
 
 And X is a configuration of points in low dimensional space p. D is a distance matrix that approximates the interpoint distances of X, and StressD is a residual sum of squares.
@@ -61,18 +60,16 @@ We used the CoRE MOF 2019 dataset with expanded geometric properties such as hen
 <!-- |![examples](https://i.imgur.com/Jsjq8ZF.png)|
 |:--:| -->
 
-
 <p align="center"><img src="https://i.imgur.com/Jsjq8ZF.png" width="500"/></p>
-
 
 The first method was just passing in the direct MOF coordinates (right). This resulted in low prediction accuracy so we instead passed in the MOF with coordinates outside the unit cell concatenated on as well (middle). This had better results, but still not enough to make the model plausible. The last method we tried was passing in the distance matrix of the MOF to MDS (left). This had the best results with an average error of 85% and a median of 45%, but with an error that high we could not publish the results in an academic conference.
 
 <p align="center"><img src="https://i.imgur.com/0ArYOSs.png" width="400"/></p>
 
-
 We still felt like our work was worthwhile so we decided to showcase it in this report so that other researchers might be able to discover a new approach to our methods. Some potential ideas that we thought of, but did not pursue, were to use a 2D image of the full 3D MOF from different points of view with partial alpha values to hopefully represent areas of low density atom concentrations that the model could recognize. If any interested researchers would like to build off our work, it is available at: https://github.com/szaman19/Materials-Search.
 
 ### Acknowledgments
+
 This material is based on work supported by the National Science Foundation under grant No. OAC-1940243.
 
 ### Bibliography
@@ -82,4 +79,3 @@ Papers with code—Inception-v3 explained. (n.d.). Retrieved March 24, 2022, fro
 Berger, M. (n.d.). MOF Metal Organic Framework—Definition, fabrication and use. Nanowerk. Retrieved March 24, 2022, from https://www.nanowerk.com/mof-metal-organic-framework.php
 
 Han, Y., Yang, H., & Guo, X. (2020). Synthesis Methods and Crystallization of MOFs. In (Ed.), Synthesis Methods and Crystallization. IntechOpen. https://doi.org/10.5772/intechopen.90435
-

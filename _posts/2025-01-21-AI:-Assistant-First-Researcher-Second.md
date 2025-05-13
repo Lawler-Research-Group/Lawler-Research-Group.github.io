@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AI: Assistant First, Researcher Second"
-date:   2025-1-21 11:31:50
+date: 2025-1-21 11:31:50
 description: by Tristan Galler
 comments: true
 tags: neuralnets, materials-science, RAG
@@ -40,9 +40,9 @@ In an attempt to first refine the models’ performance without adding new data,
     <b>Figs. 2,3 The prompt engineered modification of Llava, a moderately large model, answering without hallucination.</b>
     </p>
 
-### Exploring Retrieval-Augmented Generation 
+### Exploring Retrieval-Augmented Generation
 
-Recognizing that additional data might be required, I turned to Retrieval-Augmented Generation (RAG), a technique that embeds external data into the model’s vector space, allowing it to better match prompts with relevant information. However, even when embedding the papers that contained the images I uploaded, there was no improvement in recognition or scientific reasoning. In fact, without prompt engineering, the smaller models continued to hallucinate no matter the parameter of attention I put on the papers within the LLM. 
+Recognizing that additional data might be required, I turned to Retrieval-Augmented Generation (RAG), a technique that embeds external data into the model’s vector space, allowing it to better match prompts with relevant information. However, even when embedding the papers that contained the images I uploaded, there was no improvement in recognition or scientific reasoning. In fact, without prompt engineering, the smaller models continued to hallucinate no matter the parameter of attention I put on the papers within the LLM.
 
 ### GPT-4: The Standout in Multimodal Reasoning
 
