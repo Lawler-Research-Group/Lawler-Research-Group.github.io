@@ -20,7 +20,7 @@ I have experience running LLMs locally, primarily using Llama models, which have
 To evaluate the capabilities of these MLLMs, I ran five different models using raw STM data from various materials, such as graphene. The largest model I tested, Llama3.2 Vision (11 billion-parameter model), demonstrated an impressive ability to recognize the general context of the images, even making reasonable predictions about the material composition and possible defects. However, all other models exhibited severe hallucinations, misidentifying the STM images as blankets or cloths.
 
 <p align="center">
-<img src="https://i.imgur.com/Y8KMmkY.jpeg" width="500"/>
+<img src="https://i.imgur.com/Y8KMmkY.jpeg" width="500" />
 </p>
 <p align="center">
     <b>Fig. 1 An example of STM data sent to the LLMs, the material here being graphite [2].</b>
