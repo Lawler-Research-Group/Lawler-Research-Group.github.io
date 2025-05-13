@@ -4,7 +4,7 @@ title: "The art of quantum"
 date: 2020-05-29 16:15:21 -0400
 description: by Michael Lawler
 comments: true
-tags: quantum, thought
+tags: ["quantum", "thought"]
 ---
 
 ### Thought of the day:
