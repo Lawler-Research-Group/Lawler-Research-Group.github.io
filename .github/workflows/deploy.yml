@@ -72,6 +72,15 @@ jobs:
         with:
           ruby-version: "3.2.2"
           bundler-cache: true
+      - name: Install ImageMagick
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y imagemagick
+          echo "--- Verifying ImageMagick installation ---"
+          which convert
+          convert --version
+          echo "--- ImageMagick verification complete ---"
+
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:
@@ -94,5 +103,3 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           folder: _site
-      - name: Install ImageMagick
-        run: sudo apt-get update && sudo apt-get install -y imagemagick

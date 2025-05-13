@@ -37,19 +37,19 @@ We can see in figure 1, that the information content of $$X$$ is maximized when 
 
 For readers who enjoy the mathematics (others can skip this paragraph), Shannon entropy specifically measures information content of the random variable $$X$$. If we refer to this "surprise" or "randomness" of an outcome $$x$$ as the information content $$i(x)$$, and define it as $$i(x) = \log(\frac{1}{p(x)}) = -\log(p(x))$$. This measurement has the property that it is high for low probability outcomes and low for high probability outcomes. Moreover, this also has another desirable property of "additivity" i.e. the information content of two outcomes $$x$$ and $$y$$ get added since the joint probability $$p(x,y) = p(x).p(y) \implies i(x,y) = -\log(p(x)p(y)) = -\log(p(x)) - \log(p(y)) = i(x) + i(y)$$. Thus, the total information content of the random variable $$X$$ can be written as the weighted average of the information of possible outcomes.
 
-{% include figure.html path="assets/img/info_channel/coin_toss_entropy.png" class="img-fluid rounded z-depth-1" width="300" align="center"%}
+{% include figure.liquid path="assets/img/info_channel/coin_toss_entropy.png" class="img-fluid rounded z-depth-1" width="300" align="center"%}
 _Fig 1: Graphical representation of H(x) for our fair-coin flipping system. Notice the maximum entropy occurs when our probability $$x = 1/2$$_
 {:.figcaption}
 
 For both the classical and the quantum case of information channels, we will model a very simple operation that has purpose both in classical and quantum computing. For the classical system we will use a _flip_ operation. The flip operation will take our input bit and flip the value of it. For instance, our fair coin modeled with heads as zero and tails as one, will do just as it says. Flip the side of the coin from its initial configuration to the opposite. Figure 2 gives a pictorial representation of this process.
 
-{% include figure.html path="assets/img/info_channel/bit_flip.png" class="img-fluid rounded z-depth-1" width="300" align="center"%}
+{% include figure.liquid path="assets/img/info_channel/bit_flip.png" class="img-fluid rounded z-depth-1" width="300" align="center"%}
 _Fig 2: A simple classical information channel that shows a flip operation acting on a coin. The coin is initially in state of heads but the flip operation changes this to tails._
 {:.figcaption}
 
 A useful calculation in information theory is _Channel Capacity_, which is a measure of information loss (or conversely propagated) through our circuit. Information lost is often do to the noisiness of a channel. Noise is attributed to unwanted interactions and will affect the input states by altering them. For instance, a sender Alice and a receiver Bob may be attempting to communicate classically. Choosing a noisy channel to save resources could alter the inputs enough that Bob would be unable to decipher the original message Alice has sent. If instead of a fair coin, suppose Alice has access to a set of random variables $$X$$. She encodes a message onto the elements of $$X$$ and sends it via some noisy channel to Bob who receives a set of random variables $$Y$$ to decipher. Our aim now must be to mathematically evaluate the channel that led from $$X$$ to $$Y$$. This will show if the channel reliably transferred Alice's message. Pictorially this is shown in figure 3.
 
-{% include figure.html path="assets/img/info_channel/classical_circuit.png" class="img-fluid rounded z-depth-1" width="500" align="center"%}
+{% include figure.liquid path="assets/img/info_channel/classical_circuit.png" class="img-fluid rounded z-depth-1" width="500" align="center"%}
 _Fig 3: Alice's message is encoded into the elements $$x_i$$ where it is passed through some noisy channel $$\mathcal{N}$$ and later deciphered by Bob._
 {:.figcaption}
 
@@ -115,7 +115,7 @@ where $$\rho_A = Tr_B (\rho)$$ and $$\rho_{AB}$$ is the density matrix describin
 
 The flow of quantum information is quantifiable by how much entanglement passes from the initial state to the final state. _Quantum Coherent information_ is a quantitative measurement of this transfer. To understand it better, lets bring in a third qubit belonging to Carla. Let's suppose Alice and Carla entangle their qubits together and create a Bell Pair like that of eq. \eqref{entangled state}. Bob's qubit is initially in a $$\ket{0}$$ (spin-up) state with $$100\%$$ probability. We now define a quantum channel from Alice to Bob where we aim to pass the entanglement. A popular quantum channel that is well known to preserve entanglement is done using a SWAP gate. The SWAP gate will do just as it says; swap the values of Alice's and Bob's qubits and with it the information associated. Figure 4 shows this quantum information channel, outlining the SWAP of entanglement from Alice's qubit to Bob's.
 
-{% include figure.html path="assets/img/info_channel/quantum_circuit.png" class="img-fluid rounded z-depth-1" width="500" align="center"%}
+{% include figure.liquid path="assets/img/info_channel/quantum_circuit.png" class="img-fluid rounded z-depth-1" width="500" align="center"%}
 _Fig 4: Alice and Carla initially have an entangled bell pair. After the SWAP gate is carried out Carla and Bob are now entangled and Alice is in the $$\ket{0}$$ state._
 {:.figcaption}
 
