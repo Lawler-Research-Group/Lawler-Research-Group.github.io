@@ -162,9 +162,9 @@ collections:
 # Announcements / News Display Settings
 # -----------------------------------------------------------------------------
 announcements:
-  enabled: true      # <--- This will enable the news section on your About page
-  scrollable: false  # <--- Your existing setting, now nested
-  limit: 10          # <--- Your existing setting, now nested
+  enabled: true # <--- This will enable the news section on your About page
+  scrollable: false # <--- Your existing setting, now nested
+  limit: 10 # <--- Your existing setting, now nested
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
