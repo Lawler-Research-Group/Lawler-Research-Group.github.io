@@ -2,11 +2,12 @@
 layout: page
 title: People
 permalink: /people/
-description: 
+description:
 nav: true
-display_categories: 
+display_categories:
 horizontal: false
 ---
+
 - **Michael J. Lawler**
 <div class="row">
   <div class="col-sm-auto mt-4">
@@ -19,6 +20,7 @@ horizontal: false
 </div>
 
 ## Current Graduate Students
+
 - **Gaurav Gyawali**
 <div class="row">
   <div class="col-sm-auto mt-4">
@@ -68,18 +70,14 @@ horizontal: false
 - Chris Owen
 - Mohammad Haddad
 
-
-
-
 ## Current Undergraduate Students
+
 - Tiago Sereno (Binghamton)
 - Philip Martin (Cornell)
 - Sonny Rappaport (Cornell)
 
-
-
-
 ## Lawler Group Alumni
+
 - Luke Ellert Beck (Cornell Undergraduate)
 - Kaixiang Su (Peking University Visiting Undergraduate)
 - Krishanu Roychowdury (Cornell Postdoc)
