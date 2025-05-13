@@ -4,7 +4,7 @@ title: "Generating 2D Fingerprints to Predict Properties of Metal Organic Framew
 date: 2022-9-28 12:20:11
 description: by Jacob Barkovitch
 comments: true
-tags: ["material science", "neuralnets", "dimensionality reduction", "transfer learning"]
+tags: ["materials science", "neuralnets", "dimensionality reduction", "transfer learning"]
 ---
 
 <p align="center">

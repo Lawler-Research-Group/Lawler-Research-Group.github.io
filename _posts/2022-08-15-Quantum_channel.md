@@ -4,7 +4,7 @@ title: Introduction to information channels
 date: 2022-08-15 16:40:16
 description: by Eric Aspling
 comments: true
-tags: ["quantum", "informationtheory"]
+tags: ["quantum", "information theory"]
 ---
 
 Information processing is part of our everyday life. From reading your alarm clock in the morning to your dinner decision this evening, you're in a constant bath of information. Despite the ability to process this information via your senses, interpreting this information physically and mathematically can seem overwhelming. Nevertheless, understanding the laws of nature requires a rigorous and exhaustive approach to modeling these processes. Those who study information sciences, have developed a series of mathematical tools to help understand the inter-workings behind how information transfers from inputs to outputs. These transfers, are aptly named _information channels_.

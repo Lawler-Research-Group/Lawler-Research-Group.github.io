@@ -4,7 +4,7 @@ title: "AI: Assistant First, Researcher Second"
 date: 2025-1-21 11:31:50
 description: by Tristan Galler
 comments: true
-tags: ["neuralnets", "material science", "RAG"]
+tags: ["neuralnets", "materials science", "RAG"]
 ---
 
 Four months ago, I embarked on an ambitious experiment: I wanted to prompt-engineer ChatGPT-3 into constructing a variance matrix from data of multiple Ising models, ultimately allowing it to generate its own Ising model based on the collected data. This task, which seemed plausible given the growing capabilities of AI, quickly illuminated the limitations of large language models (LLMs) in high-level scientific reasoning and computation. Despite its fluency and broad knowledge base, GPT-3 struggled with rigorous, mathematically intensive tasks that required deep reasoning and autonomous problem-solving. This realization, coupled with discussions with my mentor, spurred an ongoing inquiry: To what extent can foundational LLMs (large dataset AI such as ChatGPT or Llama) be fine-tuned for scientific research, particularly in condensed matter theory?
