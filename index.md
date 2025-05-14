@@ -1,5 +1,5 @@
 ---
-layout: default  # Or 'default', or a new layout you create e.g., 'frontpage'
+layout: default # Or 'default', or a new layout you create e.g., 'frontpage'
 title: Welcome to The Lawler Research Group # Or your site's main title
 description: The Lawler group research site seeking breakthroughs at the interface of condensed matter physics, quantum information science, and artificial intellegance.
 
@@ -17,4 +17,4 @@ carousels:
 
 {% include carousel.html height="60" unit="%" duration="3" number="1" %}
 
-Welcome to the Lawler Research Group's website. Here you can keep up with some of our latest news, publications, code, and blog posts! Please feel free to explore the website and contact us with any questions. 
+Welcome to the Lawler Research Group's website. Here you can keep up with some of our latest news, publications, code, and blog posts! Please feel free to explore the website and contact us with any questions.

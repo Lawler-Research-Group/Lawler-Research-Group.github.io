@@ -21,10 +21,10 @@ profile:
 social: true # includes social icons at the bottom of the page
 ---
 
-We are a group of people spread across Binghamton and Cornell Universities interested in emergent phenomena arising in strongly correlated electrons. 
+We are a group of people spread across Binghamton and Cornell Universities interested in emergent phenomena arising in strongly correlated electrons.
 
 History
 
-We have deep expertise in highly frustrated magnetism and strongly correlated electrons such as non-Fermi liquids and high temperature superconductivity. 
+We have deep expertise in highly frustrated magnetism and strongly correlated electrons such as non-Fermi liquids and high temperature superconductivity.
 
 But, in the past five years, we have branched out to study quantum computing and machine learning to harness the power of these novel methods both to solve decades long problems in our field and to for their potential to make new discoveries as we begin to explore the vastness of Hilbertspace and the possibility that many phenomena have remained hidden until now.
