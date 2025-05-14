@@ -3,7 +3,7 @@ layout: post
 title: The Relativistic Quantum Information FAQ
 date: 2022-10-30
 description: by Eric Aspling
-comments: true
+giscus_comments: true
 tags: ["quantum", "information theory"]
 ---
 

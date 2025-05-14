@@ -3,7 +3,7 @@ layout: post
 title: "AI: Assistant First, Researcher Second"
 date: 2025-1-21 11:31:50
 description: by Tristan Galler
-comments: true
+giscus_comments: true
 tags: ["neuralnets", "materials science", "RAG"]
 ---
 

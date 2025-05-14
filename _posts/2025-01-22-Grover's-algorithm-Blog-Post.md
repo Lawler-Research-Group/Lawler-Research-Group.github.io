@@ -3,7 +3,7 @@ layout: post
 title: Grover dynamics for speeding up optimization
 date: 2025-01-22
 description: by Kevin Lee
-comments: true
+giscus_comments: true
 tags: ["quantum", "algorithms", "optimization", "hamiltonian"]
 ---
 

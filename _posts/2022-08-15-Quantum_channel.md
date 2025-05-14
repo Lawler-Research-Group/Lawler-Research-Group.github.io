@@ -3,7 +3,7 @@ layout: post
 title: Introduction to information channels
 date: 2022-08-15 16:40:16
 description: by Eric Aspling
-comments: true
+giscus_comments: true
 tags: ["quantum", "information theory"]
 ---
 
