@@ -2,19 +2,24 @@
 layout: default
 ---
 <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
-
   <article>
+    <!-- Hero Image -->
+    <div
+      class="hero-section"
+      style="background-image: url('{{ site.baseurl }}/assets/img/{{ page.hero_image | default: "your-optimized-hero-image.webp" }}');"
+    >
+      <div class="hero-content">
+        <h1>{{ page.hero_headline | default: 'Exploring the interface between condensed matter physics and quantum information science' }}</h1>
+        <p class="lead">
+          {{
+            page.hero_intro
+            | default: 'We are interested in how quantum algorithms behave like condensed matter, how condensed matter is captured by quantum algorithms, and how machine learning can help us make discoveries in either of these areas.'
+          }}
+        </p>
+        <p class="hero-cta">{{ page.hero_cta | default: 'Please explore our research, read our blog posts, or get to know our team!' }}</p>
+      </div>
+    </div>
+
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if page.profile.image %}
