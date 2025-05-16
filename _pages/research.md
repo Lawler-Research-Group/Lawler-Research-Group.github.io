@@ -6,7 +6,14 @@ description:
 nav: true
 display_categories: [work, fun]
 horizontal: false
+carousels:
+  - images:
+      - image: /assets/img/Pseudogap-Electronic-Nematicity.bmp
+      - image: /assets/img/adaptive_circuit.png
+      - image: /assets/img/hyperkagome.png
 ---
+
+{% include carousel.html height="60" unit="%" duration="3" number="1" %}
 
 Research in my group focuses mainly on two fundamental problems in condensed matter physics. The first is on identifying how quantum spin liquids and related phases form in frustrated magnetic insulators and proposing “smoking gun” experiments for their existence. A quantum spin liquid, as proposed by Anderson in 1973, is an isotropic paramagnetic phase in which localized spins fluctuate in such a way as to be quantum entangled with both nearby and distant spin moments. Recent advances in materials synthesis have enabled the discovery of a handful of materials that indeed have fluctuating spin moments but the entanglement properties of these spins is unknown nor is the mechanism that stabilizes this phase. But understanding this is worthwhile. Should we convincingly find quantum spin liquids, it is believed they will lead us to novel high temperature superconductors following Anderson’s 1987 proposal, to applications in quantum computers and more generally to new paradigms in condensed matter physics.
 

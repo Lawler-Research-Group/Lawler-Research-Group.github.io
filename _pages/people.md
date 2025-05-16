@@ -6,6 +6,9 @@ description:
 nav: true
 display_categories:
 horizontal: false
+carousels:
+  - images:
+      - image: /assets/img/group_treman.jpg
 ---
 
 - **Michael J. Lawler**

@@ -7,14 +7,21 @@ description: The Lawler group research site seeking breakthroughs at the interfa
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
-carousels:
-  - images:
-      - image: /assets/img/group_treman.jpg
-      - image: /assets/img/Pseudogap-Electronic-Nematicity.bmp
-      - image: /assets/img/adaptive_circuit.png
-      - image: /assets/img/hyperkagome.png
 ---
 
-{% include carousel.html height="60" unit="%" duration="3" number="1" %}
+<div class="hero-image-container">
+  {% include figure.liquid path="assets/img/Lawler-Research-Group-Barren-Plateau.webp" alt="Barren plateau research highlight" class="img-fluid" %}
+</div>
+
+<div class="welcome-text-container" style="text-align: center; padding: 20px;">
+  <h1>Exploring the interface between condensed matter physics and quantum information science</h1>
+  <p class="lead">We are interested in how quantum algorithms behave like condensed matter, how condensed matter is captured by quantum algorithms, and how machine learning can help us make discoveries in either of these areas.</p>
+  <p><strong>Please explore our research, read our blog posts, or get to know our team!</strong></p>
+  <p>
+      <a href="{{ '/research/' | relative_url }}" class="btn btn-primary">Explore Research</a>
+      <a href="{{ '/blog/' | relative_url }}" class="btn btn-secondary">Read Our Blog</a>
+      <a href="{{ '/people/' | relative_url }}" class="btn btn-secondary">Meet the Team</a>
+  </p>
+</div>
 
 Welcome to the Lawler Research Group's website. Here you can keep up with some of our latest news, publications, code, and blog posts! Please feel free to explore the website and contact us with any questions.
