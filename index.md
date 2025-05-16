@@ -1,12 +1,12 @@
 ---
-layout: default # Or 'default', or a new layout you create e.g., 'frontpage'
+layout: home # Or 'default', or a new layout you create e.g., 'frontpage'
 title: Welcome to The Lawler Research Group # Or your site's main title
+nav: false
+permalink: /
 description: The Lawler group research site seeking breakthroughs at the interface of condensed matter physics, quantum information science, and artificial intellegance.
-
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
-
 carousels:
   - images:
       - image: /assets/img/group_treman.jpg

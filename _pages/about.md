@@ -3,11 +3,9 @@ layout: about
 title: About Us
 permalink: /about/
 nav: true
-nav_order: 2
+nav_order: 1
 description: #The Lawler group research site seeking breakthroughs in condensed matter physics.
-
 subtitle: <a href='#'>Affiliations</a>. Binghamton University, Binghamton, NY 13902. Cornell University, Ithaca, NY 14853.
-
 profile:
   align: right
   image: Michael_J_Lawler_in_Aspen.jpg
@@ -17,7 +15,6 @@ profile:
     <p>Binghamton University, Vestal, NY 13850</p>
     <p>523 Clark Hall</p>
     <p>Cornell University, Ithaca, NY 14850</p>
-
 social: true # includes social icons at the bottom of the page
 ---
 
