@@ -77,3 +77,47 @@ nav {
   border-width: 1px;
   padding: 7px;
 }
+
+.hero-section {
+  background-size: cover;
+  background-position: center center;
+  padding: 100px 20px; /* Adjust padding as needed */
+  text-align: center;
+  color: white; /* Or a contrasting color if your image is light */
+  min-height: 400px; /* Or vh unit, e.g., 60vh */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-section h1 {
+  font-size: 2.5rem; /* Adjust */
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Optional: for text readability on image */
+}
+.hero-section .lead {
+  font-size: 1.25rem; /* Adjust */
+  margin-bottom: 30px;
+  max-width: 700px; /* Constrain width for readability */
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Optional */
+}
+.hero-section .hero-cta {
+  font-weight: bold;
+}
+/* Basic button styling (if you add buttons) */
+.hero-section .btn {
+  padding: 10px 20px;
+  margin: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+.hero-section .btn-primary {
+  background-color: #007bff; /* Example primary color */
+  color: white;
+}
+.hero-section .btn-secondary {
+  background-color: #6c757d; /* Example secondary color */
+  color: white;
+}
