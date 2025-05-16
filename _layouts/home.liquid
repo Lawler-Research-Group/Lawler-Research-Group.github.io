@@ -17,6 +17,13 @@ layout: default
           }}
         </p>
         <p class="hero-cta">{{ page.hero_cta | default: 'Please explore our research, read our blog posts, or get to know our team!' }}</p>
+        {% if page.hero_buttons %}
+          <div class="hero-cta-buttons">
+            {% for button in page.hero_buttons %}
+              <a href="{{ button.url | relative_url }}" class="btn {{ button.class | default: 'btn-primary' }}">{{ button.text }}</a>
+            {% endfor %}
+          </div>
+        {% endif %}
       </div>
     </div>
 
