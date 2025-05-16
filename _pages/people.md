@@ -4,6 +4,7 @@ title: People
 permalink: /people/
 description:
 nav: true
+nav_order: 5
 display_categories:
 horizontal: false
 carousels:
