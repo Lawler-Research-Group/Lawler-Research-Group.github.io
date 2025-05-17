@@ -8,7 +8,7 @@ hero_headline: Exploring the interface between condensed matter physics and quan
 hero_intro: We are interested in how quantum algorithms behave like condensed matter, how condensed matter is captured by quantum algorithms, and how machine learning can help us make discoveries in either of these areas.
 hero_cta: Please explore our research, read our blog posts, or get to know our team!
 description: The Lawler group research site seeking breakthroughs at the interface of condensed matter physics, quantum information science, and artificial intellegance.
-hero_text_position: "bottom-left" # Options: center-center, top-center, bottom-center, center-left, center-right, top-left, top-right, bottom-left, bottom-right
+hero_text_position: "bottom-center" # Options: center-center, top-center, bottom-center, center-left, center-right, top-left, top-right, bottom-left, bottom-right
 hero_text_align: "left" # Options: left, center, right
 hero_buttons:
   - text: Explore Research
