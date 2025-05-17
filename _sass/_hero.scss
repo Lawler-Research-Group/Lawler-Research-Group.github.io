@@ -15,6 +15,45 @@
   align-items: center;
   justify-content: center;
   position: relative; // If using an overlay like .hero-overlay
+  // Positional overrides
+  &.hero-pos-top-left {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  &.hero-pos-top-center {
+    align-items: flex-start;
+    justify-content: center;
+  }
+  &.hero-pos-top-right {
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+
+  &.hero-pos-center-left {
+    align-items: center;
+    justify-content: flex-start;
+  }
+  &.hero-pos-center-center {
+    align-items: center;
+    justify-content: center;
+  } // Default
+  &.hero-pos-center-right {
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  &.hero-pos-bottom-left {
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+  &.hero-pos-bottom-center {
+    align-items: flex-end;
+    justify-content: center;
+  }
+  &.hero-pos-bottom-right {
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
 }
 
 // Optional: Add the overlay style if you want a scrim
@@ -29,9 +68,19 @@
 }
 
 .hero-section .hero-content {
-  // Ensure .hero-content div exists in your layout
+  text-align: center;
   position: relative; // Needed if using .hero-overlay
   z-index: 2; // Needed if using .hero-overlay
+
+  &.text-align-left {
+    text-align: left;
+  }
+  &.text-align-right {
+    text-align: right;
+  }
+  &.text-align-center {
+    text-align: center;
+  } // Explicitly state for default override if needed
 }
 
 .hero-content h1 {

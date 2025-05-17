@@ -4,10 +4,14 @@ layout: default
 <div class="post">
   <article>
     <!-- Hero Image -->
-    <div class="hero-section" style="background-image: url('{{ site.baseurl }}/assets/img/{{ page.hero_image }}');">
-      <div class="hero-overlay"></div>
-      {/* Add this overlay div */}
-      <div class="hero-content">
+    <div
+      class="hero-section {% if page.hero_text_position %}hero-pos-{{ page.hero_text_position }}{% else %}hero-pos-center-center{% endif %}"
+      style="background-image: url('{{ site.baseurl }}/assets/img/{{ page.hero_image }}');"
+    >
+      {% if site.hero_overlay_opacity %}
+        <div class="hero-overlay" style="background-color: rgba(0,0,0,{{ site.hero_overlay_opacity }});"></div>
+      {% endif %}
+      <div class="hero-content {% if page.hero_text_align %}text-align-{{ page.hero_text_align }}{% else %}text-align-center{% endif %}">
         <h1>{{ page.hero_headline | default: 'Exploring the interface between condensed matter physics and quantum information science' }}</h1>
         <p class="lead">
           {{
