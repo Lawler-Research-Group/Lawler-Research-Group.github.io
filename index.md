@@ -3,7 +3,7 @@ layout: home
 title: Welcome to the Lawler Research Group
 nav: false
 permalink: /
-hero_image: Lawler-Research-Group-Barren-Plateau.webp
+hero_image: Wide-Canyon-in-a-Barren-Plateau.webp
 hero_headline: Exploring the interface between condensed matter physics and quantum information science.
 hero_intro: We are interested in how quantum algorithms behave like condensed matter, how condensed matter is captured by quantum algorithms, and how machine learning can help us make discoveries in either of these areas.
 hero_cta: Please explore our research, read our blog posts, or get to know our team!
