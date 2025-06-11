@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Grover dynamics for speeding up optimization
+title: Grover Dynamics for Speeding Up Optimization
 date: 2025-01-22
 description: by Kevin Lee
 giscus_comments: true
@@ -21,7 +21,7 @@ One way a quantum computer can outperform a classical computer is its ability to
 
 ## 2.2 Low-level (mathematical) overview of Grover's algorithm
 
-Initialization is an inherent simple step. We initialize a superposition state that uniformly covers all possible values |x\rangle within the search space of $$N=2^n$$ total elements by applying one layer of Hadamard gates $$H^\{\otimes n}$$ to each n number of qubits (Eq. 1). This produces an equal amplitude superposition over computational basis states labeled by bit strings, i.e.
+Initialization is an inherent simple step. We initialize a superposition state that uniformly covers all possible values $$|x\rangle$$ within the search space of $$N=2^n$$ total elements by applying one layer of Hadamard gates $$H^\{\otimes n}$$ to each n number of qubits (Eq. 1). This produces an equal amplitude superposition over computational basis states labeled by bit strings, i.e.
 \[
 H^{\otimes n}|0\rangle^{\otimes n}=\frac{1}{\sqrt{2^n}} \sum{x=0}^{2^n-1} |x\rangle \tag{1}
 \]
