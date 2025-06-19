@@ -20,7 +20,15 @@ social: true # includes social icons at the bottom of the page
 
 We are a group of people spread across Binghamton and Cornell Universities interested in emergent phenomena arising in strongly correlated electrons.
 
-History
+## Research philosophy
+
+We follow Marguerite de Angeli's "door-in-the-wall" principle. Follow a wall long enough and you are bound to find a door in it. 
+
+We do not, however, subscribe to the "well-lit paths" philosophy. As J.R.R. Tolkien might have suggested, "Not all those who wander are lost."
+
+We also believe everyone is capable of contributing to research. The experience of hitting a wall is tough but having the experience of finding the door can turn us all into scientists.
+
+## History
 
 We have deep expertise in highly frustrated magnetism and strongly correlated electrons such as non-Fermi liquids and high temperature superconductivity.
 
